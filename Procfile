@@ -1,1 +1,1 @@
-web : gunicorn FileSharing.wsgi --log-file -
+web: gunicorn FileSharing.wsgi --log-file -
