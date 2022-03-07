@@ -1,7 +1,7 @@
 from celery import shared_task
 from .models import File
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
 FMT = '%H:%M:%S'
 DFMT = '%Y-%M-%D'
 
